@@ -1,0 +1,16 @@
+body{
+    /* margin: 0;
+    padding: 0;
+    background-color: #999;
+    background-image: url(BBC\ News.jpg);
+    background-repeat:repeat-y;
+    background-position: top right;
+    background-size: cover; */
+    background:url(BBC\ News.jpg)repeat-x top right;
+    background-size: cover;
+}
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
