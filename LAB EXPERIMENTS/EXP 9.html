@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+ <meta charset="UTF-8">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Product Grid</title>
+<style>
+html,*{
+margin:0;
+padding:16px;
+box-sizing: border-box;
+font-size: 30px;
+ background-color: #CCC;
+ }
+ .box{
+ background-color: #CCC;
+ height: 485px;
+ border-radius: 8px;
+ box-shadow: 0 4px 4px ;
+ }
+ @media screen and (max-width:600px){
+ main{
+
+background-color: rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 10px;
+ }
+}
+@media screen and (min-width:600px) and (max-width:1024px){
+main{
+background-color: ☐rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(2,1fr);
+ gap: 10px;
+ }
+}
+
+@media screen and (min-width:1024px){
+main{
+background-color: ☐rgb(255, 255, 255);
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10рх;
+ }
+ }
+p{
+ font-size: 18px;
+ }
+ img{
+ font-size: 26px;
+ }
+</style>
+ </head>
+ <body>
+
+<h2 align="center">Responsive Product Grid</h2>
+<main>
+<div class="box" align="center">
+<img src="F67-Pro-Smart-Watch-with-ECG-Blood-Sugar-and-Uric-Acid-Monitoring-BlackNone-14122024-00-p.webp" alt="Product1" height="200px" width="250px">
+<h3>SMART WATCH</h3>
+<p>HIGH - QUALITY ITEM WITH GREAT FEATURES.</p>
+<p><b>&#8377;499</b></p>
+ </div>
+
+ <div
+class="box" align="center">
+<img src="acerthm_xmr1.1920.webp" alt="Product2" height="200px" width="250px">
+<h3>LAPTOP</h3>
+<p>PREMIUM LOOK WITH POWERFULL GRAPHIC CARD.</p>
+<p><b>&#8377;1,50,000</b></p>
+ </div>
+
+ <div class="box" align="center">
+    <img src="m_63c4310ea0aeb76f0496d2ff.jpg" alt="product3" height="200px" width="250px">
+    <h3>CUSION</h3>
+    <p>LIGHTWEIGHT AND COMFORTABLE.</p>
+    <p><b>&#8377;1299</b></p>
+ </div>
+
+ <div class="box" align="center">
+    <img src="PS5-pro-660x495.webp" alt="product4" height="200px" width="250px">
+    <h3>PLAY STATION</h3>
+    <p>FUTURESTIC DESIGN WITH PREMIUM QUALITY.</p>
+    <p><b>&#8377;49999</b></p>
+ </div>
+ </main>
+ </body>
+ </html>
+
+
+
+
